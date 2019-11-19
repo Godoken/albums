@@ -8,5 +8,4 @@ import javax.inject.Singleton
 @Subcomponent(modules = [GeolocationModule::class])
 interface GeolocationComponent {
     //fun inject(geolocationActivity: GeolocationActivity)
-    //fun inject(geolocationFragment: GeolocationFragment)
 }

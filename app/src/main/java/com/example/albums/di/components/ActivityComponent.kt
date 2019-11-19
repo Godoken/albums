@@ -11,9 +11,7 @@ import dagger.Component
 @PerActivity
 @Component(dependencies = [ApplicationComponent::class], modules = [ActivityModule::class])
 interface ActivityComponent {
-
     //fun inject(splashActivity: SplashActivity)
-    //fun inject(splashActivity: SplashFragment)
 
     fun provideAlbumsModule(module: AlbumsModule): AlbumsComponent
     fun provideGeolocationModule(module: GeolocationModule): GeolocationComponent
